@@ -1,0 +1,81 @@
+:root{
+    --primary-color: #97497d;
+    --dark-bg: #121212;
+    --darker-bg:#0a0a0a;
+    --light-text: #f5f5f5;
+    --gray-text: #aaaaaa;
+    --card-bg: #1e1e1e;
+    --border-color: #2d2d2d;
+    --transition: all .3s ease;
+    --box-color:#854997;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+body {
+  padding-top: 100px;
+}
+
+.carrusel{
+    position:relative;
+}
+
+.btn-renfe {
+  background-color: var(--box-color);
+  border-color: var(--box-color);
+  color: #fff;
+}
+
+.btn-renfe:hover {
+  background-color: var(--primary-color);
+  border-color: #c85aa5;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a{
+  color: var(--box-color);
+  text-decoration: none;
+}
+
+.error{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  align-content: center;
+}
+
+.list-group-item.active {
+  background-color: #97497d;
+  border-color: #97497d;
+  color: #fff;
+}
+
+#Contactos .card {
+  border: 3px solid purple;
+  border-radius: 15px;
+}
+
+#Contactos i {
+  color: #97497d;
+  margin-right: 8px;
+}
+
+#Contactos a:hover i {
+  color: #df6cb9;
+}
